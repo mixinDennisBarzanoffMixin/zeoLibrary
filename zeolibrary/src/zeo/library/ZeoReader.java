@@ -119,7 +119,7 @@ public class ZeoReader {
 	private boolean useRegularOnly = false;
 	
     /** Date formatter used to output date/time objects. */ 
-    private static final DateFormat DATE_TIME_FORMAT = new SimpleDateFormat("MM/dd/yyyy hh:mm");
+    private static final DateFormat DATE_TIME_FORMAT = new SimpleDateFormat("MM/dd/yyyy HH:mm");
 	
 	/** Date formatter used to output date objects. */
     private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MM/dd/yyyy");
